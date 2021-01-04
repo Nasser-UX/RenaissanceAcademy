@@ -1,0 +1,20 @@
+//mixin lets you make groups of CSS declarations that you want to reuse throughout your site
+
+// for border radius
+
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -o-border-radius: $radius;
+    border-radius: $radius;
+}
+
+// for display grid
+
+@mixin display-grid {
+    display: -ms-grid;
+    display: grid;
+  }
+
+ 
+
